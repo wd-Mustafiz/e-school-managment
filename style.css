@@ -1,0 +1,202 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+
+header{
+    padding-top: 35px;
+    
+    height: 576px;
+    width: 100%;
+    background-color: #F0FFF0;
+}
+header .active , .nav-link:hover{
+    color: white !important;
+    background-color:  #21B573;
+    border-radius: 50px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.nav-link{
+    color: black !important;
+    font-size: 18px;
+}
+.nav-item{
+    padding-left: 30px !important;
+}
+
+.red-span{
+    color: red;
+    font-size: 18px;
+}
+header h1{
+    line-height: 1.2;
+    font-size: 55px;
+    font-weight: bold;
+}
+.green-span{
+    color:  #21B573;
+}
+
+
+header p{
+    color: dimgray;
+    font-size: 18px;
+    line-height: 2;
+}
+.startbtn{
+    font-size: 22px;
+    text-decoration: none;
+    background:  #21B573;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 40px !important;
+}
+.startbtn:hover{
+    color: #8bffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.information{
+    padding-top: 55px;
+    padding-bottom: 120px;
+}
+.inform{
+    border-radius: 20px;
+    padding: 20px;
+    transition: .5s;
+}
+.inform:hover , .infom-active{
+    box-shadow: 1px 1px 30px rgba(0,0,0,.2);
+    transform: translateY(-8px);
+}
+
+.inform h3{
+    margin-top: 42px;
+}
+.inform img{
+    width: 100px;
+    height: 100px;
+}
+
+.online-course .card{
+    box-shadow: 1px 1px 25px rgb(159, 159, 159);
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    transition: .5s;
+}
+.online-course .card img{
+    transition: .5s;
+}
+.online-course .card:hover img{
+    transform: scale(1.06);
+}
+.online-course .card-footer{
+    
+    border: none;
+    background-color: white !important;
+}
+.online-course .card-footer img{
+    height: 24px;
+    width: 24px;
+}
+
+.online-course .startbtn{
+    font-size: 18px;
+    padding: 2px 30px !important;
+}
+.carousel img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: -80px;
+}
+.carousel-indicators li{
+    
+    width: 13px;
+    height: 10px;
+    border-radius: 45% !important;
+    background-color: grey;
+}
+
+.carousel-indicators .active {
+    width: 30px;
+    background-image: linear-gradient(to right , #009d93 0% , #0efff7e3 100%);
+}
+
+
+footer{
+    background-color: #282531;
+    padding: 80px  0;
+    margin-top: 150px;
+    color: white;
+    
+}
+footer a , footer p{
+    color: rgb(220, 220, 220);
+    font-family: sans-serif;
+}
+@media(max-width:1024px){
+    header{
+        
+        min-height: 650px;
+    }
+}
+
+@media(max-width:991px){
+    header h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:767px){
+    header{
+        text-align: center;
+        min-height:900px;
+    }
+
+    .online-course h5{
+        font-size: 18px;
+    }
+
+    .online-course .startbtn{
+        padding: 0;
+        font-size: 11px;
+    }
+    .testimonial{
+        text-align: center;
+    }
+
+    .testimonial , footer{
+        text-align: center;
+    }
+    footer li{
+        width: 25%;
+        margin:auto;
+        text-align: justify;
+    }
+    header img{
+        margin-top: 40px;
+    }
+    .inform{
+        padding: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .infom-active{
+        transform: none;
+    }
+
+}
+@media(max-width:575px){
+    
+    .online-course .startbtn{
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+}
